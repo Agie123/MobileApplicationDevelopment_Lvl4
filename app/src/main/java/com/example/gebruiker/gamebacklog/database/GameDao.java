@@ -1,11 +1,11 @@
-package com.example.gebruiker.gamebacklog.Utils;
+package com.example.gebruiker.gamebacklog.database;
 
 import android.arch.persistence.room.Dao;
 import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 import android.arch.persistence.room.Update;
-import com.example.gebruiker.gamebacklog.Models.Game;
+import com.example.gebruiker.gamebacklog.models.Game;
 import java.util.List;
 
 @Dao

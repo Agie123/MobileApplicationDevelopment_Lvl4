@@ -1,10 +1,10 @@
-package com.example.gebruiker.gamebacklog.Utils;
+package com.example.gebruiker.gamebacklog.database;
 
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;
 import android.arch.persistence.room.RoomDatabase;
 import android.content.Context;
-import com.example.gebruiker.gamebacklog.Models.Game;
+import com.example.gebruiker.gamebacklog.models.Game;
 
 @Database(entities = {Game.class}, version = 1)
 

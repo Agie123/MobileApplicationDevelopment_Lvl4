@@ -1,4 +1,4 @@
-package com.example.gebruiker.gamebacklog.Adapters;
+package com.example.gebruiker.gamebacklog.adapters;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.example.gebruiker.gamebacklog.R;
-import com.example.gebruiker.gamebacklog.Models.Game;
+import com.example.gebruiker.gamebacklog.models.Game;
 import java.util.List;
 
 public class GameAdapter extends RecyclerView.Adapter<GameAdapter.ViewHolder>{

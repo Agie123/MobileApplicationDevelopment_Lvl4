@@ -1,4 +1,4 @@
-package com.example.gebruiker.gamebacklog.Activities;
+package com.example.gebruiker.gamebacklog.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,7 +13,7 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 import com.example.gebruiker.gamebacklog.R;
-import com.example.gebruiker.gamebacklog.Models.Game;
+import com.example.gebruiker.gamebacklog.models.Game;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;

@@ -1,4 +1,4 @@
-package com.example.gebruiker.gamebacklog.Activities;
+package com.example.gebruiker.gamebacklog.activities;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -14,9 +14,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import com.example.gebruiker.gamebacklog.R;
-import com.example.gebruiker.gamebacklog.Adapters.GameAdapter;
-import com.example.gebruiker.gamebacklog.Models.Game;
-import com.example.gebruiker.gamebacklog.Utils.AppDatabase;
+import com.example.gebruiker.gamebacklog.adapters.GameAdapter;
+import com.example.gebruiker.gamebacklog.models.Game;
+import com.example.gebruiker.gamebacklog.database.AppDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
